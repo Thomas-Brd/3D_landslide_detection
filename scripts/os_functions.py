@@ -1,6 +1,5 @@
 # coding: utf-8
 # Thomas Bernard
-# fonctions gérant les fichiers et dossiers
 
 
 import os
