@@ -12,8 +12,9 @@ Data used in Bernard et al.(2020) are located in the "Data/" folder. It contains
 
 The LiDAR data including our study area are accessible in the "LiDAR_data/" folder.
 * Original pre-earthquake LiDAR can be found at: http://dx.doi.org/10.5069/G9G44N75 
-* Original post-earthquake data can be accessible on request 
-license: https://creativecommons.org/licenses/by/3.0/nz/
+* Original post-earthquake data can be accessible on request.  
+
+(All LiDAR data are under license: https://creativecommons.org/licenses/by/3.0/nz/)
 
 ## Getting started
 The 3D landslide detection workflow can be executed from the jupyter notebook "3D_landslide_detection". The M3C2 parameters files are in the "Landslide_detection/" folder. The point cloud of the detected significant changes with fluvial erosion and sedimentation filtered is also provided.
