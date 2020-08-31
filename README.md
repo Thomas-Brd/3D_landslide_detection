@@ -1,5 +1,5 @@
 # 3D landslide detection
-<img src= "https://github.com/Thomas-Brd/3D_landslide_detection/tree/master/figures/3D_landslide_detection.png" align=" center" >
+![](figures/3D_landslide_detection.png)
 This repository contains the dataset used in Bernard et al. (2020) and a jupyter notebook of the automatic workflow.
 
 
