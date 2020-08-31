@@ -17,7 +17,11 @@ The LiDAR data including our study area are accessible in the "LiDAR_data/" fold
 (All LiDAR data are under license: https://creativecommons.org/licenses/by/3.0/nz/)
 
 ## Getting started
-The 3D landslide detection workflow can be executed from the jupyter notebook "3D_landslide_detection". The M3C2 parameters files are in the "Landslide_detection/" folder. The point cloud of the detected significant changes with fluvial erosion and sedimentation filtered is also provided.
+The 3D landslide detection workflow can be executed from the jupyter notebook "3D_landslide_detection". 
+
+The M3C2 parameters files are in the "Landslide_detection/" folder. 
+
+The point cloud of the detected significant changes with fluvial erosion and sedimentation filtered is also provided.
 
 
 ## References
