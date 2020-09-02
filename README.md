@@ -2,6 +2,7 @@
 ![](figures/3D_landslide_detection.png)
 This repository contains the dataset used in Bernard et al. (2020) and a jupyter notebook of the automatic workflow.
 
+https://zenodo.org/badge/290577257.svg
 
 ## Requierements
 Software : Cloudcompare (V2.11 or later) : http://cloudcompare.org/
