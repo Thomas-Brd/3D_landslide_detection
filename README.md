@@ -9,7 +9,7 @@ Software : Cloudcompare (V2.11 or later) : http://cloudcompare.org/
 Data used in Bernard et al.(2020) are located in the "Data/" folder. It contains:
 * The landslide source and deposit informations 
 
-The LiDAR data including our study area are accessible at: http://doi.org/10.5281/zenodo.4011607
+The LiDAR data including our study area are accessible at: http://doi.org/10.5281/zenodo.4011629
 * Original pre-earthquake LiDAR can be found at: http://dx.doi.org/10.5069/G9G44N75 
 * Original post-earthquake data can be accessible on request.  
 
