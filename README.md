@@ -1,27 +1,27 @@
 # 3D landslide detection
 ![](figures/3D_landslide_detection.png)
-This repository contains the dataset used in Bernard et al. (2020) and a jupyter notebook of the automatic workflow.
+This repository contains the code used in Bernard et al. (2021) and a jupyter notebook of the 3D point cloud differencing workflow.
 
 ## Requierements
 Software : Cloudcompare (V2.11 or later) : http://cloudcompare.org/
 
+- pandas V1.1.5 or later
+- numpy V1.19.5 or later
+- laspy V1.7.0 : https://pypi.org/project/laspy/
+
 ## Data 
-Data used in Bernard et al.(2020) are located in the "Data/" folder. It contains:
-* The landslide source and deposit informations 
 
-The LiDAR data including our study area are accessible at: http://doi.org/10.5281/zenodo.4011629
+The LiDAR data including the study area are accessible at: http://doi.org/10.5281/zenodo.4011629
 * Original pre-earthquake LiDAR can be found at: http://dx.doi.org/10.5069/G9G44N75 
-* Original post-earthquake data can be accessible on request.  
+* Original post-earthquake data can be accessible upon request from https://canterburymaps.govt.nz/about/feedback/.  
 
-(All LiDAR data are under license: https://creativecommons.org/licenses/by/3.0/nz/)
-
-The M3C2 parameters files are in the "Landslide_detection/" folder. 
-
-The point cloud of the detected significant changes with fluvial erosion and sedimentation filtered is also provided.
+(All LiDAR data are under license: https://creativecommons.org/licenses/by/3.0/nz/) 
 
 ## Getting started
-The 3D landslide detection workflow can be executed from the jupyter notebook "3D_landslide_detection" or from the cloudcompare software directly. 
+The 3D landslide detection workflow can be executed from the jupyter notebook. 
 
 
 ## References
 Lague, D., Brodu, N., & Leroux, J. (2013). Accurate 3D comparison of complex topography with terrestrial laser scanner: Application to the Rangitikei canyon (NZ). ISPRS journal of photogrammetry and remote sensing, 82, 10-26.
+
+Bernard, T. G., Lague, D., and Steer, P.: Beyond 2D inventories : synoptic 3D landslide volume calculation from repeat LiDAR data, Earth Surf. Dynam. Discuss. [preprint], https://doi.org/10.5194/esurf-2020-73, in review, 2020.
