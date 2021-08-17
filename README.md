@@ -8,6 +8,7 @@ Software : Cloudcompare (V2.11 or later) : http://cloudcompare.org/
 - pandas V1.1.5 or later
 - numpy V1.19.5 or later
 - laspy V1.7.0 : https://pypi.org/project/laspy/
+- jupterlab V3.0.1 or later
 
 ## Data 
 
