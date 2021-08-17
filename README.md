@@ -11,9 +11,8 @@ Software : Cloudcompare (V2.11 or later) : http://cloudcompare.org/
 
 ## Data 
 
-The LiDAR data including the study area are accessible at: http://doi.org/10.5281/zenodo.4011629
-* Original pre-earthquake LiDAR can be found at: http://dx.doi.org/10.5069/G9G44N75 
-* Original post-earthquake data can be accessible upon request from https://canterburymaps.govt.nz/about/feedback/.  
+* The original pre-earthquake LiDAR can be found at: http://dx.doi.org/10.5069/G9G44N75 
+* The original post-earthquake data can be accessible upon request from https://canterburymaps.govt.nz/about/feedback/.  
 
 (All LiDAR data are under license: https://creativecommons.org/licenses/by/3.0/nz/) 
 
