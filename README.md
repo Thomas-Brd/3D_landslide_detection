@@ -1,5 +1,5 @@
 # 3D landslide detection
-![](figures/final_inventory.png)
+![](images/final_inventory.png)
 This repository contains the code used in Bernard et al. (2021) and a jupyter notebook of the 3D point cloud differencing workflow.
 
 ## Requierements
