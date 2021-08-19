@@ -156,7 +156,7 @@ def landslide_segmentation(path_segmentation,individual_outputs_folder,individua
     commande = cc.open_file(commande2,shift,path_segmentation+'Vertical_M3C2.laz')
     cc.connected_component_clouds(commande,octree_level,min_point_per_component)
     # estimate the number of sources and deposits
-    file_count =  len([name for name in os.listdir(path_segmentation) if os.path.isfile(os.path.join(path_segmentation, name))])-1
+    file_count =  len([name for name in os.listdir(path_segmentation) if os.path.isfile(os.path.join(path_segmentation, name))])
     for ii in range(1, file_count):
         os.rename(path_segmentation+'Vertical_M3C2_COMPONENT_'+str(ii)+'.laz',dir_name+'CC_'+str(ii-1)+'.laz')
         # Add a new scalar field defining the id of the point cloud
@@ -288,7 +288,8 @@ def landslide_segmentation(path_segmentation,individual_outputs_folder,individua
                     if j > 0:
                         os.remove(dir_name+clouds_name[0]+'.laz')
                     os.rename(dir_name+clouds_name[0]+'_MERGED'+'.LAZ',dir_name+clouds_name[0]+'.laz')
-                
+    # delete clouds folder
+    os.rmdir(dir_name)
     return df
    
 

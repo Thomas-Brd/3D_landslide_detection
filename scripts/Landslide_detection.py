@@ -59,6 +59,7 @@ def Landslide_segmentation():
         commande = cc.open_file(cc.open_file(cc.open_file(commande1,shift,workspace+Data_folder+filenames['pre_EQ_lidar']+'.laz'),shift,workspace+Data_folder+filenames['post_EQ_lidar']+'.laz'),shift,workspace+workflow_folder+segmentation_folder+list(Extraction_folder.values())[i]+filenames['core_points']+'.laz')
         cc.m3c2(commande,workspace+params_folder,params_file_Vm3c2 +'.txt')
         os.rename(workspace+Data_folder+list(filenames.values())[0]+'_M3C2.laz',workspace+workflow_folder+segmentation_folder+list(Extraction_folder.values())[i]+'Vertical_M3C2.laz')
+        os.remove(workspace+workflow_folder+segmentation_folder+list(Extraction_folder.values())[i]+list(Extraction_filenames.values())[i]+'.laz')
     
     # Segmentation by connected components
     for i in range(0,len(Extraction_folder)):
